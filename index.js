@@ -1,4 +1,4 @@
-console.warn = function(){};
+console.warn = function() {};
 
 window.onload = function() {
     var container, stats;
@@ -194,12 +194,12 @@ window.onload = function() {
         _models.push({
             "id": xx_name,
             "type": "gltf",
-			"gltfurl": xx_url
+            "gltfurl": xx_url
         });
 
         mixer = null;
 
-        if(!!XXX){
+        if (!!XXX) {
             scene.remove(scene.getObjectByName(XXX.name));
         }
 
@@ -252,14 +252,12 @@ window.onload = function() {
     }
 
     function animate() {
-        if (appState == "active") {
-            orbitControls && orbitControls.update();
-            render();
+        orbitControls && orbitControls.update();
+        render();
 
-            if (selectModel && selectModel.type == FILE_TYPE.GLTF) {
-                if (mixer) mixer.update(clock.getDelta());
-                THREE.GLTFLoader.Shaders.update(scene, camera);
-            }
+        if (selectModel && selectModel.type == FILE_TYPE.GLTF) {
+            if (mixer) mixer.update(clock.getDelta());
+            THREE.GLTFLoader.Shaders.update(scene, camera);
         }
 
         requestAnimationFrame(animate);

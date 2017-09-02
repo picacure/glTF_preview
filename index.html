@@ -14,21 +14,7 @@
     <script type="text/javascript" src="libs/threejs/GLTF2Loader.js"></script>
     <script type="text/javascript" src="libs/threejs/OrbitControls.js"></script>
     <!-- <script src="//g.alicdn.com/tmapp/animation-data/4.1.37/jc/tools/vconsole.min.js"></script> -->
-    <script type="text/javascript">
-    window.appState = "active";
-
-    document.addEventListener('WV.Event.APP.Active', function(e) {
-        appState = "active";
-    }, false);
-
-    document.addEventListener('WV.Event.APP.Background', function(e) {
-        appState = "hide";
-    }, false);
-
-    document.addEventListener('WV.Event.APP.Lock', function(e) {
-        appState = "hide";
-    }, false);
-    </script>
+   
     <style type="text/css">
     html,
     body {
@@ -47,6 +33,7 @@
 
     #urlContainer {
         position: absolute;
+        width: 90%;
         z-index: 1000;
         left: 10px;
         top: 10px;
@@ -63,7 +50,7 @@
     }
 
     #urlTxt {
-        width: 600px;
+        width: 100%;
         height: 30px;
         line-height: 30px;
     }
