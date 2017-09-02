@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>gltf预览工具</title>
+    <script type="text/javascript" src="libs/jQuery/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/model/threejs/panda/panda.js"></script> -->
+    <script type="text/javascript" src="libs/threejs/three.js"></script>
+    <script type="text/javascript" src="libs/threejs/OBJLoader.js"></script>
+    <script type="text/javascript" src="libs/threejs/MTLLoader.js"></script>
+    <script type="text/javascript" src="libs/threejs/GLTFLoader.js"></script>
+    <script type="text/javascript" src="libs/threejs/GLTF2Loader.js"></script>
+    <script type="text/javascript" src="libs/threejs/OrbitControls.js"></script>
+    <!-- <script src="//g.alicdn.com/tmapp/animation-data/4.1.37/jc/tools/vconsole.min.js"></script> -->
+    <script type="text/javascript">
+    window.appState = "active";
+
+    document.addEventListener('WV.Event.APP.Active', function(e) {
+        appState = "active";
+    }, false);
+
+    document.addEventListener('WV.Event.APP.Background', function(e) {
+        appState = "hide";
+    }, false);
+
+    document.addEventListener('WV.Event.APP.Lock', function(e) {
+        appState = "hide";
+    }, false);
+    </script>
+    <style type="text/css">
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #c {
+        border: 1px solid red;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+    }
+
+    #urlContainer {
+        position: absolute;
+        z-index: 1000;
+        left: 10px;
+        top: 10px;
+    }
+
+    #loading {
+        position: absolute;
+        z-index: 10000;
+        left: 50%;
+        bottom: 50px;
+        font-size: 30px;
+        margin-left: -70px;
+        color: white
+    }
+
+    #urlTxt {
+        width: 600px;
+        height: 30px;
+        line-height: 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="ui container m-source">
+        <div id="loading">loading...</div>
+        <div id="c"></div>
+        <div id="urlContainer">
+            <input id="urlTxt" type="text" placeholder="glTF模型地址" name="">
+        </div>
+    </div>
+    <script type="text/javascript" src="mock.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

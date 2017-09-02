@@ -1,0 +1,543 @@
+{
+  "accessors": {
+    "accessor_index_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 9930,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        16261
+      ]
+    },
+    "accessor_index_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 19860,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 5142,
+      "type": "SCALAR",
+      "min": [
+        224
+      ],
+      "max": [
+        17985
+      ]
+    },
+    "accessor_index_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 30144,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 10722,
+      "type": "SCALAR",
+      "min": [
+        457
+      ],
+      "max": [
+        17042
+      ]
+    },
+    "accessor_index_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 51588,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 3096,
+      "type": "SCALAR",
+      "min": [
+        894
+      ],
+      "max": [
+        1629
+      ]
+    },
+    "accessor_index_4": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 57780,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 1092,
+      "type": "SCALAR",
+      "min": [
+        2487
+      ],
+      "max": [
+        16401
+      ]
+    },
+    "accessor_index_5": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 59964,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 24813,
+      "type": "SCALAR",
+      "min": [
+        4866
+      ],
+      "max": [
+        14309
+      ]
+    },
+    "accessor_position": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 9744,
+      "min": [
+        -14.96503734588623,
+        1.6635199785232544,
+        -5.345986843109131
+      ],
+      "max": [
+        15.109420776367188,
+        14.761077880859375,
+        6.307178020477295
+      ],
+      "type": "VEC3"
+    },
+    "accessor_normal": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 116928,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 9744,
+      "type": "VEC3",
+      "min": [
+        -0.9999393224716187,
+        -0.9998266100883484,
+        -0.9999997019767761
+      ],
+      "max": [
+        0.9997975826263428,
+        1,
+        0.9999843835830688
+      ]
+    }
+  },
+  "asset": {
+    "generator": "OBJ2GLTF",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0"
+    },
+    "version": "1.0"
+  },
+  "buffers": {
+    "buffer_0": {
+      "type": "arraybuffer",
+      "byteLength": 343446,
+      "uri": "buffer_0.bin"
+    }
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "buffer_0",
+      "byteLength": 233856,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "buffer_0",
+      "byteLength": 109590,
+      "byteOffset": 233856,
+      "target": 34963
+    }
+  },
+  "images": {},
+  "materials": {
+    "material_Material_Air": {
+      "name": "Material_Air",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Material_Blue": {
+      "name": "Material_Blue",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          0,
+          0.098039,
+          0.380392,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Material_Eyelet": {
+      "name": "Material_Eyelet",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          0.513726,
+          0.513726,
+          0.513726,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Material_Fabric": {
+      "name": "Material_Fabric",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Material_Leather": {
+      "name": "Material_Leather",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          0.772549,
+          0.772549,
+          0.772549,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Material_Sole": {
+      "name": "Material_Sole",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": [
+          0.094118,
+          0.094118,
+          0.094118,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.1,
+          0.1,
+          0.1,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    }
+  },
+  "meshes": {
+    "mesh_nike-air-max-low-poly": {
+      "name": "nike-air-max-low-poly",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_0",
+          "material": "material_Material_Leather",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_1",
+          "material": "material_Material_Fabric",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_2",
+          "material": "material_Material_Blue",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_3",
+          "material": "material_Material_Eyelet",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_4",
+          "material": "material_Material_Air",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal"
+          },
+          "indices": "accessor_index_5",
+          "material": "material_Material_Sole",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "rootNode": {
+      "children": [],
+      "meshes": [
+        "mesh_nike-air-max-low-poly"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "samplers": {},
+  "scene": "scene_nike-air-max-low-poly",
+  "scenes": {
+    "scene_nike-air-max-low-poly": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "textures": {},
+  "extensionsUsed": [],
+  "animations": {},
+  "cameras": {},
+  "techniques": {
+    "technique0": {
+      "attributes": {
+        "a_position": "position",
+        "a_normal": "normal"
+      },
+      "parameters": {
+        "modelViewMatrix": {
+          "semantic": "MODELVIEW",
+          "type": 35676
+        },
+        "projectionMatrix": {
+          "semantic": "PROJECTION",
+          "type": 35676
+        },
+        "normalMatrix": {
+          "semantic": "MODELVIEWINVERSETRANSPOSE",
+          "type": 35675
+        },
+        "ambient": {
+          "type": 35666
+        },
+        "diffuse": {
+          "type": 35666
+        },
+        "emission": {
+          "type": 35666
+        },
+        "specular": {
+          "type": 35666
+        },
+        "shininess": {
+          "type": 5126
+        },
+        "transparency": {
+          "type": 5126
+        },
+        "position": {
+          "semantic": "POSITION",
+          "type": 35665
+        },
+        "normal": {
+          "semantic": "NORMAL",
+          "type": 35665
+        }
+      },
+      "program": "program0",
+      "states": {
+        "enable": [
+          2884,
+          2929
+        ]
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrix",
+        "u_projectionMatrix": "projectionMatrix",
+        "u_normalMatrix": "normalMatrix",
+        "u_ambient": "ambient",
+        "u_diffuse": "diffuse",
+        "u_emission": "emission",
+        "u_specular": "specular",
+        "u_shininess": "shininess",
+        "u_transparency": "transparency"
+      }
+    }
+  },
+  "programs": {
+    "program0": {
+      "attributes": [
+        "a_position",
+        "a_normal"
+      ],
+      "fragmentShader": "fragmentShader0",
+      "vertexShader": "vertexShader0"
+    }
+  },
+  "shaders": {
+    "vertexShader0": {
+      "type": 35633,
+      "uri": "vertexShader0.glsl"
+    },
+    "fragmentShader0": {
+      "type": 35632,
+      "uri": "fragmentShader0.glsl"
+    }
+  },
+  "skins": {},
+  "extensions": {}
+}
